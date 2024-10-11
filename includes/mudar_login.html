@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .float-buttons {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="float-buttons">
+        <a href="../includes/trocar_usuario.php" class="btn btn-info">
+            <i class="fa-solid fa-user-edit"></i> Atualizar Usuário
+        </a>
+        <a href="../view/trocar_senha.php" class="btn btn-warning">
+            <i class="fa-solid fa-key"></i> Trocar Senha
+        </a>
+    </div>
+</body>
+</html>
